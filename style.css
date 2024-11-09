@@ -5,6 +5,7 @@
 html, body{
     padding: 0;
     margin: 0;
+    background-color: #2F1893;
 }
 header {
     display: flex;
@@ -45,4 +46,100 @@ nav ul li a {
 }
 .logo-btn {
     line-height:3.3;
+}
+
+.hero{
+    background-color: #2F1893;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 70px;
+}
+.btn-signin, btn-twi{
+    cursor: pointer;
+    border: 0;
+    color: #fff;
+    border-radius: 18px;
+    padding: 9px;
+   
+
+}
+.hero-left {
+border-left: #2F1893;
+text-align: left;
+color: #fff;
+margin-top: 50px;
+margin-bottom: 0;
+}
+.Learn-More{
+    color: #fff;
+    background-color: #F06292;
+    padding: 10px 20px;
+    border: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    border: none;
+
+}
+.hero-right {
+    text-align: center;
+    padding: 25px;
+    border-radius: 5px;
+    background-color: #EBEAED;
+    color: #1E0E62;
+    margin: 20px 20px 30px;
+    width: 330px;
+    box-sizing: border-box;
+}
+.sign-in-btn, .Login-via-Twitter-btn{
+    border: 0;
+    color: #fff;
+    width: 100%;
+    border-radius: 18px;
+    padding: 9px;
+    background-color: #482BE7;
+}
+input[type="email"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid;
+    border-radius: 20px;
+} 
+*{
+    box-sizing: border-box;
+}
+.separator{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+.separator hr{
+    flex-grow: 1;
+    border: none;
+    border-top: 1px solid;
+}
+.separator span{
+    padding: 0 10px;
+
+}
+.Login-via-Twitter-btn{
+    background-color: #1DA1F2;
+}
+.hero-right form p a span{
+    color: #25DAC5;
+    
+}
+.content{
+    background-color: #fff;
+    text-align: center;
+    padding: 20px 10px;
+    color: #1E0E62;
+}
+.con-p{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+    font-size: 0.9em;
+    padding: 0 250px 40px;
+    color: #15143966;
 }
