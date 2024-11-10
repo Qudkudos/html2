@@ -5,7 +5,6 @@
 html, body{
     padding: 0;
     margin: 0;
-    background-color: #2F1893;
 }
 header {
     display: flex;
@@ -90,6 +89,7 @@ margin-bottom: 0;
     width: 330px;
     box-sizing: border-box;
 }
+.hero-right 
 .sign-in-btn, .Login-via-Twitter-btn{
     border: 0;
     color: #fff;
@@ -97,6 +97,7 @@ margin-bottom: 0;
     border-radius: 18px;
     padding: 9px;
     background-color: #482BE7;
+    margin-top: 15px;
 }
 input[type="email"], input[type="password"] {
     width: 100%;
@@ -111,7 +112,7 @@ input[type="email"], input[type="password"] {
 .separator{
     display: flex;
     align-items: center;
-    margin: 10px;
+    margin: 10px;;
 }
 .separator hr{
     flex-grow: 1;
@@ -139,7 +140,36 @@ input[type="email"], input[type="password"] {
     display: flex;
     justify-content: space-around;
     margin-top: 15px;
-    font-size: 0.9em;
+    font-size: 1.2em;
     padding: 0 250px 40px;
     color: #15143966;
+}
+.features{
+    background-color: #fff;
+}
+.feature-head, h2 {
+    text-align: center;
+    color:#1E0E62;
+}
+.feature-body{
+    display: flex;
+    justify-content: space-between;
+}
+.feature-body-left{
+    color:#1E0E62;
+    width: 70%;
+    margin: 15px;
+    padding-left: 450px;
+}
+ small, p{
+    color: #15143966;
+}
+
+h3{
+    color: #1E0E62;
+}
+.feature-body-right img{
+    width: 120%;
+    padding-right: 500px;
+
 }
