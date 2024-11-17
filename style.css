@@ -288,3 +288,47 @@ input[type="email"], input[type="password"] {
     top: 2529px;
     left: 150px;
 }
+.comps{
+    display: flex;
+    justify-content: space-between;
+    background-color: #2F1893;
+    margin-top: 50px;
+    color: #FFFFFF;
+    padding: 85px;
+}
+.comp-forms, .ter-pol{
+    margin-top: 40px;
+}
+.ter-pol{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px 0 2px;
+    font-size: 14px;
+}
+.comp1 input{
+    width: 70%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid;
+    border-radius: 20px;
+    background-color: transparent;
+    outline: #fff;
+}
+.comp1 button{
+    color: #fff;
+    background-color: #25DAC5;
+    padding: 10px 12px 10px 12px;
+    border: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    border: none;
+}
+.comp4 button{
+    color: #fff;
+    background-color: #E93A7D;
+    padding: 10px 12px 10px 12px;
+    border: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    border: none;
+}
