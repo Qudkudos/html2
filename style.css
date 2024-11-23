@@ -179,6 +179,7 @@ input[type="email"], input[type="password"] {
 }
 .comm{
     display: flex;
+    margin-left: 40px;
 }
 .comm-left img{
     width:90%;
@@ -305,7 +306,7 @@ input[type="email"], input[type="password"] {
     padding: 0 50px 0 2px;
     font-size: 14px;
 }
-.comp1 input{
+.comp1 input, .page-right-2 input{
     width: 70%;
     padding: 10px;
     margin-bottom: 15px;
@@ -314,7 +315,7 @@ input[type="email"], input[type="password"] {
     background-color: transparent;
     outline: #fff;
 }
-.comp1 button{
+.comp1 button, .page-right-2 button{
     color: #fff;
     background-color: #25DAC5;
     padding: 10px 12px 10px 12px;
@@ -331,4 +332,53 @@ input[type="email"], input[type="password"] {
     border-radius: 20px;
     cursor: pointer;
     border: none;
+}
+.pages{
+    display: flex;
+    padding: 60px;
+    margin-left: 80px;
+
+}
+.page-left img {
+    width: 50%;
+    margin: 20px 0 20px 0;
+}
+.page-left h2, p, h3, small{
+    color: #1E0E62;
+}
+.page-right small, .page-left small{
+    color: #15143966;
+}
+.pageR1, .pageR2, .pageR3, .pageR4, .pageR5, .pageRd1, .pageRd2, .pageRd3, .pageRd4, .pageRd5{
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    text-align: left;
+}
+
+.pageR1 img, .pageR2 img, .pageR3 img, .pageR4 img, .pageR5 img, .pageRd1 img, .pageRd2 img, .pageRd3 img, .pageRd4 img, .pageRd5 img{
+    width: 125px;
+
+}
+.page-right-2{
+    padding: 20px;
+    border-radius: 5px;
+    border: 2px solid;
+    border-color: #EBEAED;
+    margin: 20px 0 30px;
+    width: 330px;
+    box-sizing: border-box;
+}
+.page-learn-more-btn{
+    color: #fff;
+    background-color: #F06292;
+    padding: 7px 14px;
+    border: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    border: none;
+    margin-top: 15px;
+}
+.page-right small{
+    font-size: 10px;
 }
